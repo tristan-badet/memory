@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-image: url("../public/img/landscape.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid {
+margin-top: 50px;
+display:grid;
+grid-template-columns: repeat(6, 300px);
+gap: 10px;
+justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #282c34;
+  font-size: 35px;
+  padding: 15px;
+  border-radius: 8px;
+  border: solid white;
+  margin-left: 800px;
+  margin-right: 800px;
+}
+
+button {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #282c34;
+  font-size: 35px;
+  padding: 15px;
+  border-radius: 8px;
+  border: solid white;
+}
+
+p {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #282c34;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  border: solid white;
+  margin-left: 900px;
+  margin-right: 900px;
+}
+
+
+
+
+
+
